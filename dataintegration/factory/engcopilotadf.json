@@ -1,0 +1,9 @@
+{
+	"name": "engcopilotadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a3ea1ea4-b5c0-4fc3-b607-f18dcdeb1617",
+		"tenantId": "e9f6dca3-2a36-4cec-9440-91128b7290cc"
+	}
+}
