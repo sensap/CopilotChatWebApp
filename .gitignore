@@ -21,3 +21,5 @@
 /copilot/CopilotChatWebApi/obj
 /FunctionApps/KernelHttpServer/obj/Debug
 /FunctionApps/KernelHttpServer/obj/Release
+/Utilities/testapp
+/Utilities/testapp/Program.cs
