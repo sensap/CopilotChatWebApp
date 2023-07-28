@@ -253,6 +253,9 @@ public class DocumentImportController : ControllerBase
             {
                 case SupportedFileType.Txt:
                 case SupportedFileType.Pdf:
+                case SupportedFileType.Jpg:
+                case SupportedFileType.Png:
+                case SupportedFileType.Tiff:
                     break;
                 default:
                     throw new ArgumentException($"Unsupported file type: {fileType}");
@@ -306,7 +309,7 @@ public class DocumentImportController : ControllerBase
         try
         {
             importResult = await this.ParseDocumentContentToMemoryAsync(
-                kernel,
+                kernel, 
                 formFile.FileName,
                 documentContent,
                 documentImportForm,

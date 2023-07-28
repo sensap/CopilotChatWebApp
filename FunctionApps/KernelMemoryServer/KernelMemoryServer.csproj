@@ -11,7 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SemanticMemoryDocumentImport">
-      <HintPath>..\..\Lib\SemanticMemoryDocumentImport\bin\Release\net6.0\SemanticMemoryDocumentImport.dll</HintPath>
+      <HintPath>..\..\Utilities\SemanticMemoryDocumentImport\bin\Release\net6.0\bin\SemanticMemoryDocumentImport.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

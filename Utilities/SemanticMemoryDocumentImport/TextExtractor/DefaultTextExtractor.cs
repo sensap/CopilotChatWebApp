@@ -22,8 +22,8 @@ namespace SemanticMemoryDocumentImport.TextExtractor
 
         public Task<string> ExtractFileAsync(Stream content)
         {
-            
-            return Task<string>.FromResult(content.ToString());
+            using var streamReader = new StreamReader(content);
+            return  streamReader.ReadToEndAsync();
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EngineeringCopilot\\Lib\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj": {}
+    "C:\\EngineeringCopilot\\Utilities\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj": {}
   },
   "projects": {
-    "C:\\EngineeringCopilot\\Lib\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj": {
+    "C:\\EngineeringCopilot\\Utilities\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EngineeringCopilot\\Lib\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj",
+        "projectUniqueName": "C:\\EngineeringCopilot\\Utilities\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj",
         "projectName": "SemanticMemoryDocumentImport",
-        "projectPath": "C:\\EngineeringCopilot\\Lib\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj",
+        "projectPath": "C:\\EngineeringCopilot\\Utilities\\SemanticMemoryDocumentImport\\SemanticMemoryDocumentImport.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-        "outputPath": "C:\\EngineeringCopilot\\Lib\\SemanticMemoryDocumentImport\\obj\\",
+        "outputPath": "C:\\EngineeringCopilot\\Utilities\\SemanticMemoryDocumentImport\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,10 +57,6 @@
               "target": "Package",
               "version": "[0.1.0, )"
             },
-            "Microsoft.NET.Sdk.Functions": {
-              "target": "Package",
-              "version": "[4.1.1, )"
-            },
             "Microsoft.Office.Interop.PowerPoint": {
               "target": "Package",
               "version": "[15.0.4420.1018, )"
@@ -71,7 +67,7 @@
             },
             "Microsoft.SemanticKernel": {
               "target": "Package",
-              "version": "[0.14.547.1-preview, )"
+              "version": "[0.18.230725.3-preview, )"
             },
             "Microsoft.SemanticKernel.Connectors.Memory.Qdrant": {
               "target": "Package",
@@ -84,6 +80,10 @@
             "PdfPig": {
               "target": "Package",
               "version": "[0.1.8, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
             },
             "Verify.PdfPig": {
               "target": "Package",

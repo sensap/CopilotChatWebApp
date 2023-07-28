@@ -1,6 +1,7 @@
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 using UglyToad.PdfPig.DocumentLayoutAnalysis.TextExtractor;
+using Tesseract;
 
 using Azure.Storage.Blobs.Models;
 namespace SemanticMemoryDocumentImport.TextExtractor

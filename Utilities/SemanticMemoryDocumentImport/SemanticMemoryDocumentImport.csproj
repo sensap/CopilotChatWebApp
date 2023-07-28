@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -10,14 +10,15 @@
     <PackageReference Include="Azure.AI.FormRecognizer" Version="4.0.0" />
     <PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
     <PackageReference Include="DocumentFormat.OpenXml.VariableReplacer" Version="0.1.0" />
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
+    <!--<PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />-->
     <PackageReference Include="Microsoft.Office.Interop.PowerPoint" Version="15.0.4420.1018" />
     <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
-        <PackageReference Include="Microsoft.SemanticKernel" Version="0.14.547.1-preview" />
+	  <PackageReference Include="Microsoft.SemanticKernel" Version="0.18.230725.3-preview" />
         <PackageReference Include="Microsoft.SemanticKernel.Connectors.Memory.Qdrant" Version="0.18.230725.3-preview" />
         <PackageReference Include="OpenXmlPowerTools" Version="4.5.3.2" />
         <PackageReference Include="PdfPig" Version="0.1.8" />
-        <PackageReference Include="Verify.PdfPig" Version="2.1.0" />
+        <PackageReference Include="Tesseract" Version="5.2.0" />
+  <PackageReference Include="Verify.PdfPig" Version="2.1.0" />
   </ItemGroup>
   
 </Project>

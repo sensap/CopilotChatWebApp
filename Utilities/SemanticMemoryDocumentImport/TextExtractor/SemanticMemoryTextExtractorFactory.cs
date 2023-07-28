@@ -17,8 +17,10 @@ namespace SemanticMemoryDocumentImport.TextExtractor
                     return new DefaultTextExtractor();
                 case "doc" or "docx":
                     return new WordTextExtractor();
+                case "jpg" or "jpeg" or "png" or "tif" or "tiff":
+                    return new ImageTextExtractor();
                 default:
-                    return new DefaultTextExtractor();
+                    throw new NotSupportedException("This filetype is not supported");
             }
         }
     }

@@ -3,8 +3,8 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)emptyfiles\4.1.0\buildTransitive\EmptyFiles.targets" Condition="Exists('$(NuGetPackageRoot)emptyfiles\4.1.0\buildTransitive\EmptyFiles.targets')" />
     <Import Project="$(NuGetPackageRoot)verify\19.9.2\buildTransitive\Verify.targets" Condition="Exists('$(NuGetPackageRoot)verify\19.9.2\buildTransitive\Verify.targets')" />
+    <Import Project="$(NuGetPackageRoot)tesseract\5.2.0\build\Tesseract.targets" Condition="Exists('$(NuGetPackageRoot)tesseract\5.2.0\build\Tesseract.targets')" />
     <Import Project="$(NuGetPackageRoot)system.text.json\6.0.8\buildTransitive\netcoreapp3.1\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\6.0.8\buildTransitive\netcoreapp3.1\System.Text.Json.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\6.0.4\buildTransitive\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\6.0.4\buildTransitive\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.functions\4.1.1\build\Microsoft.NET.Sdk.Functions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.functions\4.1.1\build\Microsoft.NET.Sdk.Functions.targets')" />
   </ImportGroup>
 </Project>

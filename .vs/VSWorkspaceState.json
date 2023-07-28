@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Lib",
-    "\\Lib\\EnvironmentVariablesRead",
-    "\\Lib\\SemanticMemoryDocumentImport",
-    "\\Lib\\SemanticMemoryDocumentImport\\bin",
-    "\\Lib\\SemanticMemoryDocumentImport\\bin\\Release",
-    "\\Lib\\SemanticMemoryDocumentImport\\bin\\Release\\net6.0"
+    ""
   ],
-  "SelectedNode": "\\Lib\\SemanticMemoryDocumentImport\\bin\\Release\\net6.0",
+  "SelectedNode": "\\CopilotChatWebApi.sln",
   "PreviewInSolutionExplorer": false
 }
