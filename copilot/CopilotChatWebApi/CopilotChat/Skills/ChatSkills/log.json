@@ -1,0 +1,218 @@
+{
+    "name": "AppExceptions",
+    "time": "2023-07-17T23:27:59.2892186Z",
+    "tags": {
+        "ai.cloud.roleInstance": "CPC-setha-YQYTT",
+        "ai.operation.id": "15d91ccc28beb579e75e4c109cbf8ed2",
+        "ai.operation.parentId": "a8846ad8964e3619",
+        "ai.internal.sdkVersion": "il:2.21.0-429"
+    },
+    "data": {
+        "baseType": "ExceptionData",
+        "baseData": {
+            "ver": 2,
+            "exceptions": [
+                {
+                    "id": 5627579,
+                    "outerId": 0,
+                    "typeName": "Microsoft.SemanticKernel.AI.AIException",
+                    "message": "Invalid request: The request is not valid, HTTP status: 404",
+                    "hasFullStack": true,
+                    "parsedStack": [
+                        {
+                            "level": 0,
+                            "method": "Microsoft.SemanticKernel.Connectors.AI.OpenAI.AzureSdk.ClientBase+<RunRequestAsync>d__21`1.MoveNext",
+                            "assembly": "Microsoft.SemanticKernel.Connectors.AI.OpenAI, Version=0.17.0.0, Culture=neutral, PublicKeyToken=f300afd708cefcd3",
+                            "line": 0
+                        },
+                        {
+                            "level": 1,
+                            "method": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 2,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 3,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 4,
+                            "method": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter.GetResult",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 5,
+                            "method": "Microsoft.SemanticKernel.Connectors.AI.OpenAI.AzureSdk.ClientBase+<InternalGetChatResultsAsync>d__11.MoveNext",
+                            "assembly": "Microsoft.SemanticKernel.Connectors.AI.OpenAI, Version=0.17.0.0, Culture=neutral, PublicKeyToken=f300afd708cefcd3",
+                            "line": 0
+                        },
+                        {
+                            "level": 6,
+                            "method": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 7,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 8,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 9,
+                            "method": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter.GetResult",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 10,
+                            "method": "Microsoft.SemanticKernel.Connectors.AI.OpenAI.AzureSdk.ClientBase+<InternalGetChatResultsAsTextAsync>d__14.MoveNext",
+                            "assembly": "Microsoft.SemanticKernel.Connectors.AI.OpenAI, Version=0.17.0.0, Culture=neutral, PublicKeyToken=f300afd708cefcd3",
+                            "line": 0
+                        },
+                        {
+                            "level": 11,
+                            "method": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 12,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 13,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 14,
+                            "method": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter.GetResult",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 15,
+                            "method": "Microsoft.SemanticKernel.SkillDefinition.SKFunction+<>c__DisplayClass19_0+<<FromSemanticConfig>g__LocalFunc|1>d.MoveNext",
+                            "assembly": "Microsoft.SemanticKernel.Core, Version=0.17.0.0, Culture=neutral, PublicKeyToken=f300afd708cefcd3",
+                            "line": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 34047122,
+                    "outerId": 5627579,
+                    "typeName": "Azure.RequestFailedException",
+                    "message": "The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.\r\nStatus: 404 (Not Found)\r\nErrorCode: DeploymentNotFound\r\n\r\nContent:\r\n{\"error\":{\"code\":\"DeploymentNotFound\", \"message\":\"The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.\"}}\r\n\r\nHeaders:\r\nOpenAI-Processing-Ms: REDACTED\r\nx-ms-client-request-id: 14530c06-cce0-4dda-92e4-07bf5e235cbd\r\napim-request-id: REDACTED\r\nStrict-Transport-Security: REDACTED\r\nX-Content-Type-Options: REDACTED\r\nx-ms-region: REDACTED\r\nDate: Mon, 17 Jul 2023 23:27:58 GMT\r\nContent-Length: 198\r\nContent-Type: application/json\r\n",
+                    "hasFullStack": true,
+                    "parsedStack": [
+                        {
+                            "level": 0,
+                            "method": "Azure.Core.HttpPipelineExtensions+<ProcessMessageAsync>d__0.MoveNext",
+                            "assembly": "Azure.AI.OpenAI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8",
+                            "line": 0
+                        },
+                        {
+                            "level": 1,
+                            "method": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 2,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 3,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 4,
+                            "method": "System.Threading.Tasks.ValueTask`1.get_Result",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 5,
+                            "method": "Azure.AI.OpenAI.OpenAIClient+<GetChatCompletionsAsync>d__17.MoveNext",
+                            "assembly": "Azure.AI.OpenAI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8",
+                            "line": 0
+                        },
+                        {
+                            "level": 6,
+                            "method": "System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 7,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 8,
+                            "method": "System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 9,
+                            "method": "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter.GetResult",
+                            "assembly": "System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                            "line": 0
+                        },
+                        {
+                            "level": 10,
+                            "method": "Microsoft.SemanticKernel.Connectors.AI.OpenAI.AzureSdk.ClientBase+<RunRequestAsync>d__21`1.MoveNext",
+                            "assembly": "Microsoft.SemanticKernel.Connectors.AI.OpenAI, Version=0.17.0.0, Culture=neutral, PublicKeyToken=f300afd708cefcd3",
+                            "line": 0
+                        }
+                    ]
+                }
+            ],
+            "severityLevel": "Error",
+            "properties": {
+                "DeveloperMode": "true",
+                "2": "Invalid request: The request is not valid, HTTP status: 404",
+                "ConnectionId": "0HMS73H5FRGO9",
+                "TraceId": "15d91ccc28beb579e75e4c109cbf8ed2",
+                "ParentId": "0000000000000000",
+                "FormattedMessage": "Something went wrong while rendering the semantic function or while executing the text completion. Function: ChatSkill.func92cf051c42ca4ca2ace330f71cad9bcb. Error: Invalid request: The request is not valid, HTTP status: 404. Details: The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.\r\nStatus: 404 (Not Found)\r\nErrorCode: DeploymentNotFound\r\n\r\nContent:\r\n{\"error\":{\"code\":\"DeploymentNotFound\", \"message\":\"The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.\"}}\r\n\r\nHeaders:\r\nOpenAI-Processing-Ms: REDACTED\r\nx-ms-client-request-id: 14530c06-cce0-4dda-92e4-07bf5e235cbd\r\napim-request-id: REDACTED\r\nStrict-Transport-Security: REDACTED\r\nX-Content-Type-Options: REDACTED\r\nx-ms-region: REDACTED\r\nDate: Mon, 17 Jul 2023 23:27:58 GMT\r\nContent-Length: 198\r\nContent-Type: application/json",
+                "CategoryName": "Microsoft.SemanticKernel.IKernel",
+                "1": "func92cf051c42ca4ca2ace330f71cad9bcb",
+                "0": "ChatSkill",
+                "RequestPath": "/chat",
+                "SpanId": "a8846ad8964e3619",
+                "ActionId": "6038584b-c701-4947-acfa-96e5c7d9d3f1",
+                "RequestId": "0HMS73H5FRGO9:00000037",
+                "3": "The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.\r\nStatus: 404 (Not Found)\r\nErrorCode: DeploymentNotFound\r\n\r\nContent:\r\n{\"error\":{\"code\":\"DeploymentNotFound\", \"message\":\"The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.\"}}\r\n\r\nHeaders:\r\nOpenAI-Processing-Ms: REDACTED\r\nx-ms-client-request-id: 14530c06-cce0-4dda-92e4-07bf5e235cbd\r\napim-request-id: REDACTED\r\nStrict-Transport-Security: REDACTED\r\nX-Content-Type-Options: REDACTED\r\nx-ms-region: REDACTED\r\nDate: Mon, 17 Jul 2023 23:27:58 GMT\r\nContent-Length: 198\r\nContent-Type: application/json",
+                "ActionName": "SemanticKernel.Service.CopilotChat.Controllers.ChatController.ChatAsync (CopilotChatWebApi)",
+                "_MS.ProcessedByMetricExtractors": "(Name:'Exceptions', Ver:'1.1')",
+                "OriginalFormat": "Something went wrong while rendering the semantic function or while executing the text completion. Function: {0}.{1}. Error: {2}. Details: {3}"
+            }
+        }
+    }
+}

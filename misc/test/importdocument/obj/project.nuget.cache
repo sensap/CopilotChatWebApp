@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "ujt6L7KSdlMXK6n+A7Q2lcw0EVTS8X10MCwkiuuRnsKLHlLjLGB3hlRNI3dQzAkyNgc79vQDRu3ZhrpTmplW1w==",
+  "success": true,
+  "projectFilePath": "C:\\EngineeringCopilot\\api\\importdocument\\ImportDocument.csproj",
+  "expectedPackageFiles": [
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-preview.3.23174.8\\microsoft.extensions.configuration.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.3.23174.8\\microsoft.extensions.configuration.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0-preview.3.23174.8\\microsoft.extensions.configuration.binder.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0-preview.3.23174.8\\microsoft.extensions.configuration.fileextensions.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0-preview.3.23174.8\\microsoft.extensions.configuration.json.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0-preview.3.23174.8\\microsoft.extensions.fileproviders.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0-preview.3.23174.8\\microsoft.extensions.fileproviders.physical.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0-preview.3.23174.8\\microsoft.extensions.filesystemglobbing.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.3.23174.8\\microsoft.extensions.primitives.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.identity.client\\4.54.0\\microsoft.identity.client.4.54.0.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\system.text.encodings.web\\8.0.0-preview.3.23174.8\\system.text.encodings.web.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\system.text.json\\8.0.0-preview.3.23174.8\\system.text.json.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\.tools\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

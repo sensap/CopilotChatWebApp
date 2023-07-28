@@ -2,11 +2,37 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Attach to Python Functions",
-            "type": "python",
+            "name": "Start CopilotChatWebApi",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/API/CoPilotChatWebApi/bin/Debug/net6.0/CopilotChatWebApi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/API/CoPilotChatWebApi",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Launch Chat App against localhost",
+            "url": "https://localhost:3000",
+            "webRoot": "${workspaceFolder}/psbot/PSCopilot"
+        },
+        {
+            "name": "Attach to .NET Functions",
+            "type": "coreclr",
             "request": "attach",
-            "port": 9091,
-            "preLaunchTask": "func: host start"
+            "processId": "${command:azureFunctions.pickProcess}"
         }
     ]
 }
