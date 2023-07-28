@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f9d43e89-e8d6-45e5-959e-c3f3e37b0d13/resourceGroups/ps-azure-openai-deployments/providers/Microsoft.Web/sites/PSCopilot-Chatserver",
+    "appService.deploySubpath": "CopilotChatWebApp"
+}

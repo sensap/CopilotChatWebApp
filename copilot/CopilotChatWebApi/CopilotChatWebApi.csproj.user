@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>CopilotChatWebApi</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\EngineeringCopilot\.github\workflows\PsFinancials-CopilotChatWebApi.yml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\EngineeringCopilot\.github\workflows\semanticmemoryvectortrigger.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

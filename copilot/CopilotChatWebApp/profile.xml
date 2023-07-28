@@ -1,0 +1,28 @@
+<publishData>
+    <publishProfile profileName="PSCopilot-Chatserver - Web Deploy" publishMethod="MSDeploy"
+        publishUrl="pscopilot-chatserver.scm.azurewebsites.net:443"
+        msdeploySite="PSCopilot-Chatserver" userName="$PSCopilot-Chatserver"
+        userPWD="hJPy7MmdcCZwemcuQWsnQHT1HrjjkTiYo5FCb08fhaZYkMaiGxa3hsaHtcLT"
+        destinationAppUrl="https://pscopilot-chatserver.azurewebsites.net"
+        SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink=""
+        controlPanelLink="http://windows.azure.com" webSystem="WebSites">
+        <databases />
+    </publishProfile>
+    <publishProfile profileName="PSCopilot-Chatserver - FTP" publishMethod="FTP"
+        publishUrl="ftps://waws-prod-blu-391.ftp.azurewebsites.windows.net/site/wwwroot"
+        ftpPassiveMode="True" userName="PSCopilot-Chatserver\$PSCopilot-Chatserver"
+        userPWD="hJPy7MmdcCZwemcuQWsnQHT1HrjjkTiYo5FCb08fhaZYkMaiGxa3hsaHtcLT"
+        destinationAppUrl="https://pscopilot-chatserver.azurewebsites.net"
+        SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink=""
+        controlPanelLink="http://windows.azure.com" webSystem="WebSites">
+        <databases />
+    </publishProfile>
+    <publishProfile profileName="PSCopilot-Chatserver - Zip Deploy" publishMethod="ZipDeploy"
+        publishUrl="pscopilot-chatserver.scm.azurewebsites.net:443" userName="$PSCopilot-Chatserver"
+        userPWD="hJPy7MmdcCZwemcuQWsnQHT1HrjjkTiYo5FCb08fhaZYkMaiGxa3hsaHtcLT"
+        destinationAppUrl="https://pscopilot-chatserver.azurewebsites.net"
+        SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink=""
+        controlPanelLink="http://windows.azure.com" webSystem="WebSites">
+        <databases />
+    </publishProfile>
+</publishData>
