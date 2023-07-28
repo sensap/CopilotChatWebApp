@@ -1,0 +1,5 @@
+{
+    "searchstring": "Northwind Benefit details",
+    "semantic_ranker": True,
+    "semantic_captions": True
+}

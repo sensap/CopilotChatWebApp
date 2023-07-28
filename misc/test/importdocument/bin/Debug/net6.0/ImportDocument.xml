@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImportDocument</name>
+    </assembly>
+    <members>
+        <member name="T:ImportDocument.Config">
+            <summary>
+            Configuration for the app.
+            </summary>
+        </member>
+        <member name="P:ImportDocument.Config.ClientId">
+            <summary>
+            Client ID for the app as registered in Azure AD.
+            </summary>
+        </member>
+        <member name="P:ImportDocument.Config.RedirectUri">
+            <summary>
+            Redirect URI for the app as registered in Azure AD.
+            </summary>
+        </member>
+        <member name="P:ImportDocument.Config.ServiceUri">
+            <summary>
+            Uri for the service that is running the chat.
+            </summary>
+        </member>
+        <member name="M:ImportDocument.Config.GetConfig">
+            <summary>
+            Gets configuration from appsettings.json.
+            </summary>
+            <returns>An Config instance</returns>
+        </member>
+        <member name="M:ImportDocument.Config.Validate(ImportDocument.Config)">
+            <summary>
+            Validates a Config object.
+            </summary>
+            <param name="config"></param>
+            <returns>True is the config object is not null.</returns>
+        </member>
+        <member name="T:ImportDocument.Program">
+            <summary>
+            This console app imports a file to the CopilotChat WebAPI document memory store.
+            </summary>
+        </member>
+        <member name="M:ImportDocument.Program.AcquireUserIdAsync(ImportDocument.Config)">
+            <summary>
+            Acquires a user unique ID from Azure AD.
+            </summary>
+        </member>
+        <member name="M:ImportDocument.Program.UploadFileAsync(System.IO.FileInfo,ImportDocument.Config,System.Guid)">
+            <summary>
+            Conditionally uploads a file to the Document Store for parsing.
+            </summary>
+            <param name="file">The file to upload for injection.</param>
+            <param name="config">Configuration.</param>
+            <param name="chatCollectionId">Save the extracted context to an isolated chat collection.</param>
+        </member>
+        <member name="M:ImportDocument.Program.UploadAsync(System.Net.Http.MultipartFormDataContent,ImportDocument.Config)">
+            <summary>
+            Sends a POST request to the Document Store to upload a file for parsing.
+            </summary>
+            <param name="multipartFormDataContent">The multipart form data content to send.</param>
+            <param name="config">Configuration.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bots/psgpt/.env
+/bots/psgpt/local-cert.crt
+/bots/psgpt/local-cert.key
+/copilot/CopilotChatWebApi/.vs
+/copilot/CopilotChatWebApi/.vscode
+/copilot/CopilotChatWebApi/bin
+/copilot/CopilotChatWebApp/node_modules
+/NewFile
+/data
+/.pytest_cache
+/SemanticMemoryUpload/.vscode
+/copilot/CopilotChatWebApi/appsettings.json
+/Utilities/SemanticMemoryUpload/local.settings.json
+.fake
+/Lib/testapp
+/FunctionApps/KernelHttpServer/local.settings.json
+/copilot/CopilotChatWebApi/obj
+/FunctionApps/KernelHttpServer/obj/Debug
+/FunctionApps/KernelHttpServer/obj/Release

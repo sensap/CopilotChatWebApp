@@ -1,0 +1,14 @@
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\SemanticMemoryDocumentImport.csproj.AssemblyReference.cache
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\SemanticMemoryDocumentImport.GeneratedMSBuildEditorConfig.editorconfig
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\SemanticMemoryDocumentImport.AssemblyInfoInputs.cache
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\SemanticMemoryDocumentImport.AssemblyInfo.cs
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\SemanticMemoryDocumentImport.csproj.CoreCompileInputs.cache
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\bin\Debug\net7.0\SemanticMemoryDocumentImport.deps.json
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\bin\Debug\net7.0\SemanticMemoryDocumentImport.dll
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\bin\Debug\net7.0\SemanticMemoryDocumentImport.pdb
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\SemanticMemoryDocumentImport.dll
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\refint\SemanticMemoryDocumentImport.dll
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\SemanticMemoryDocumentImport.pdb
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\obj\Debug\net7.0\ref\SemanticMemoryDocumentImport.dll
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\bin\Debug\net7.0\Tokenizers\Settings\encoder.json
+C:\EngineeringCopilot\Lib\SemanticMemoryDocumentImport\bin\Debug\net7.0\Tokenizers\Settings\vocab.bpe

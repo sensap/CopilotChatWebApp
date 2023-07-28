@@ -1,0 +1,11 @@
+{
+    "vscode-nmake-tools.workspaceBuildDirectories": [
+        "."
+    ],
+    "azureFunctions.deploySubpath": "KernelHttpServer/bin/Release/net6.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "azureFunctions.projectSubpath": "FunctionApps\\KernelHttpServer"
+}

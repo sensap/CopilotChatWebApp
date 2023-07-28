@@ -1,0 +1,42 @@
+{
+  "a3fee5d1-c5f5-4004-9ebe-8da0ae699653": {
+    "id": "a3fee5d1-c5f5-4004-9ebe-8da0ae699653",
+    "chatId": "b10bc8b5-496e-4562-9e52-4b22060b845a",
+    "sourceType": "File",
+    "name": "Guidance_Extensibility_SAP_S4HANA_Cloud_extended_edition_20210608.pdf",
+    "hyperlink": null,
+    "sharedBy": "00000000-0000-0000-508d-0d2d06467c0a.9188040d-6c67-4c5b-b112-36a304b66dad",
+    "createdOn": "2023-07-23T22:36:47.1357171-07:00",
+    "size": 1146693
+  },
+  "f2bdaefd-c8ab-41ee-a7b2-6c59a5000387": {
+    "id": "f2bdaefd-c8ab-41ee-a7b2-6c59a5000387",
+    "chatId": "b10bc8b5-496e-4562-9e52-4b22060b845a",
+    "sourceType": "File",
+    "name": "SAP Aurora is microsoft professiona.txt",
+    "hyperlink": null,
+    "sharedBy": "00000000-0000-0000-508d-0d2d06467c0a.9188040d-6c67-4c5b-b112-36a304b66dad",
+    "createdOn": "2023-07-23T22:35:17.8966801-07:00",
+    "size": 60
+  },
+  "3708ab81-ba2f-4a54-9e6f-c22d95691e4b": {
+    "id": "3708ab81-ba2f-4a54-9e6f-c22d95691e4b",
+    "chatId": "b10bc8b5-496e-4562-9e52-4b22060b845a",
+    "sourceType": "File",
+    "name": "Sales order.pdf",
+    "hyperlink": null,
+    "sharedBy": "00000000-0000-0000-508d-0d2d06467c0a.9188040d-6c67-4c5b-b112-36a304b66dad",
+    "createdOn": "2023-07-23T22:51:26.8734372-07:00",
+    "size": 2597265
+  },
+  "18d67b90-9eaa-4af4-8ac7-e19a9ec678c1": {
+    "id": "18d67b90-9eaa-4af4-8ac7-e19a9ec678c1",
+    "chatId": "b10bc8b5-496e-4562-9e52-4b22060b845a",
+    "sourceType": "File",
+    "name": "Forecast 2.0 Solution Review.pdf",
+    "hyperlink": null,
+    "sharedBy": "00000000-0000-0000-508d-0d2d06467c0a.9188040d-6c67-4c5b-b112-36a304b66dad",
+    "createdOn": "2023-07-23T22:49:09.0277838-07:00",
+    "size": 2478305
+  }
+}
