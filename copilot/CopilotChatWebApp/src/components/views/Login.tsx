@@ -18,7 +18,7 @@ export const Login: React.FC = () => {
                 </a>
             </Body1>
 
-            <Button style={{ padding: 0 }} appearance="transparent" onClick={() => { instance.loginRedirect().catch(() => { }); }}>
+            <Button style={{ padding: 0 }} appearance="transparent" onClick={() => { instance.loginRedirect().catch(() => {console.log("error")}); }}>
                 <Image src={signInLogo} />
             </Button>
         </div>
