@@ -20,10 +20,12 @@
 /FunctionApps/KernelHttpServer/local.settings.json
 /copilot/CopilotChatWebApi/obj
 /FunctionApps/KernelHttpServer/obj/Debug
-<<<<<<< HEAD
 /FunctionApps/KernelHttpServer/obj/Release
 /Utilities/testapp
 /Utilities/testapp/Program.cs
-=======
-/FunctionApps/KernelHttpServer/obj/Release
->>>>>>> 9c4dfb26ae692f0c394d361f56110bb8745aaeae
+/copilot/CopilotChatWebApp/build
+/copilot/CopilotChatWebApp/.vs/CopilotChat
+/Lib/.vs
+/FunctionApps/KernelHttpServer/.vs
+/FunctionApps/KernelHttpServer/.vscode
+/FunctionApps/KernelHttpServer/bin
