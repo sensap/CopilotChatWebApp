@@ -15,7 +15,8 @@ export const Constants = {
             cacheLocation: 'localStorage',
             storeAuthStateInCookie: false,
         },
-        semanticKernelScopes: ['openid', 'offline_access', 'profile'],
+       // semanticKernelScopes: ['openid', 'offline_access', 'profile' ,'api://8553f7a2-6c1c-4ae3-bbf8-6a297bc1d2ae/access_as_user'],
+       semanticKernelScopes: ['openid', 'offline_access', 'profile' ,'api://6a09384b-16cb-4634-a1ac-770aafc15e34/access_as_user'],
         // MS Graph scopes required for loading user information
         msGraphAppScopes: ['User.ReadBasic.All'],
     },
