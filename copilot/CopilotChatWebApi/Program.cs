@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.ApplicationInsights.Extensibility.Implementation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Hosting.Server;
@@ -12,6 +13,7 @@ using Microsoft.AspNetCore.Hosting.Server.Features;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Logging;
 using SemanticKernel.Service.CopilotChat.Extensions;
 using SemanticKernel.Service.CopilotChat.Hubs;
 using SemanticKernel.Service.Diagnostics;
@@ -36,6 +38,13 @@ public sealed class Program
         // Load in configuration settings from appsettings.json, user-secrets, key vaults, etc...
         builder.Host.AddConfiguration();
         builder.WebHost.UseUrls(); // Disables endpoint override warning message when using IConfiguration for Kestrel endpoint.
+
+        //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        //    .AddJwtBearer(opt =>
+        //    {
+        //        opt.Audience = "api://6a09384b-16cb-4634-a1ac-770aafc15e34";
+        //        opt.Authority = $"https://login.microsoftonline.com/" + "72f988bf-86f1-41af-91ab-2d7cd011db47";
+        //    });
 
         // Add in configuration options and Semantic Kernel services.
         builder.Services
@@ -90,6 +99,7 @@ public sealed class Program
         {
             app.UseSwagger();
             app.UseSwaggerUI();
+            IdentityModelEventSource.ShowPII = true;
         }
 
         // Start the service
