@@ -20,5 +20,9 @@
         <PackageReference Include="Tesseract" Version="5.2.0" />
   <PackageReference Include="Verify.PdfPig" Version="2.1.0" />
   </ItemGroup>
-  
+	<ItemGroup>
+		<None Update="data\eng.traineddata">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 </Project>

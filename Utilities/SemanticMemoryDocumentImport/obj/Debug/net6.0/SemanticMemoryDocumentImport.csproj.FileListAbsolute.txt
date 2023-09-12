@@ -210,3 +210,4 @@ C:\EngineeringCopilot\Utilities\SemanticMemoryDocumentImport\obj\Debug\net6.0\Se
 C:\EngineeringCopilot\Utilities\SemanticMemoryDocumentImport\obj\Debug\net6.0\refint\SemanticMemoryDocumentImport.dll
 C:\EngineeringCopilot\Utilities\SemanticMemoryDocumentImport\obj\Debug\net6.0\SemanticMemoryDocumentImport.pdb
 C:\EngineeringCopilot\Utilities\SemanticMemoryDocumentImport\obj\Debug\net6.0\ref\SemanticMemoryDocumentImport.dll
+C:\EngineeringCopilot\Utilities\SemanticMemoryDocumentImport\bin\Debug\net6.0\data\eng.traineddata

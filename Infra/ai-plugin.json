@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Conference Plugin",
+    "name_for_model": "conferenceapi",
+    "description_for_human": "Manage your conference schedule and get information about the conference.",
+    "description_for_model": "Manage your conference schedule and get information about the conference.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://conferenceapi.azurewebsites.net/"
+    },
+    "logo_url": "http://localhost:3333/logo.png",
+    "contact_email": "sethanga@microsoft.com",
+    "legal_info_url": "http://www.example.com/legal"
+}

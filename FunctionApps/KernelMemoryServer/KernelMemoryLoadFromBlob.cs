@@ -23,7 +23,8 @@ namespace KernelMemoryLoad
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
             
             IKernel kernel = CreateKernel;
-            ImportResult importResult = await new SemanticMemoryUploadFromBlob(kernel, connectionString: Get_environmentvalue("BlobConnectionString"), containerName: name, collectionName: Get_environmentvalue("QdrantCollection")).ParseDocumentContentToMemoryAsync(myBlob, name);
+            SemanticMemoryUploadFromBlob obj = new SemanticMemoryUploadFromBlob(kernel, connectionString: Get_environmentvalue("BlobConnectionString"), containerName: name, collectionName: Get_environmentvalue("QdrantCollection"));
+            ImportResult importResult = await obj.ParseDocumentContentToMemoryAsync(myBlob, name);
             if (!importResult.IsSuccessful)
             {
                 log.LogError("Memeory upload failed");
