@@ -37,10 +37,20 @@ namespace SemanticMemoryDocumentImport.TextExtractor
             var  a = new MemoryStream();
             content.CopyTo(a);
             var filebytes = a.ToArray();
-            TesseractEngine tesseractEngine = new TesseractEngine("./data", "eng", EngineMode.Default);
-            using var img = Pix.LoadFromMemory(filebytes);
-            using  var page = tesseractEngine.Process(img);
-            return Task<string>.FromResult(page.GetText());
+            using (var engine = new TesseractEngine("./data", "eng", EngineMode.Default))
+            {
+                using (var img = Pix.LoadFromMemory(filebytes))
+                {
+                    using(var page = engine.Process(img))
+                    {
+                        return Task<string>.FromResult(page.GetText());
+                    }
+                }
+            }
+            //    TesseractEngine tesseractEngine = new TesseractEngine("./tessdata", "eng", EngineMode.Default);
+            //using var img = Pix.LoadFromMemory(filebytes);
+            //using  var page = tesseractEngine.Process(img);
+            //
         }
     }
 }

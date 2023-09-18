@@ -46,3 +46,7 @@ Utilities/SemanticMemoryDocumentImport/obj/Debug/net6.0/SemanticMemoryDocumentIm
 .vs/EngineeringCopilot/v17/workspaceFileList.bin
 .vs/slnx.sqlite
 .vs/slnx.sqlite
+/PSCopilot/chat-copilot/scripts/deploy/publish
+/PSCopilot/chat-copilot/scripts/deploy/out
+/Archives/copilot
+/.vs
